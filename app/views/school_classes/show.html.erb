@@ -1,0 +1,21 @@
+<!-- <%= form_for @person do |f| %>
+  <%= f.label :first_name %>:
+  <%= f.text_field :first_name %><br />
+
+  <%= f.label :last_name %>:
+  <%= f.text_field :last_name %><br />
+
+  <%= f.submit %>
+<% end %> -->
+
+<!-- create_table "school_classes", force: :cascade do |t|
+  t.string   "title"
+  t.integer  "room_number" -->
+
+<%= form_for(@school_class) do |f| %>
+  <%= f.label :title%>
+  <%= f.text_field :title %>
+  <%= f.label :room_number%>
+  <%= f.text_field :room_number %>
+  <%= f.submit%>
+<%=end %>
